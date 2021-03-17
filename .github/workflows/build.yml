@@ -1,18 +1,18 @@
 name: Build
 on:
-  push:
-    branches:
+#  push:
+#    branches:
 #      - master
 #      - develop
 #      - release-*
 #      - feat-*
-    tags:
-      - v2.*
+#    tags:
+#      - v2.*
 #  schedule:
 #    - cron: 0 11 * * *
 
 #  watch:
-v    types: [started]
+#    types: [started]
 
 env:
   QT_VERSION_MAJOR: 5
