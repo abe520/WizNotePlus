@@ -8,6 +8,11 @@ on:
       - feat-*
     tags:
       - v2.*
+#  schedule:
+#    - cron: 0 11 * * *
+
+  watch:
+    types: [started]
 
 env:
   QT_VERSION_MAJOR: 5
